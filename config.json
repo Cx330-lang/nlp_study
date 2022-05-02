@@ -1,0 +1,27 @@
+{
+  "focal_loss": false,
+  "model_name": "textcnn",
+  "epochs": 30,
+  "checkpoint_every": 100,
+  "log_every": 100,
+  "eval_every": 100,
+  "learning_rate": 1e-5,
+  "lmcl_loss": false,
+  "drop_rate": 0.3,
+  "sequence_length": 500,
+  "embedding_size": 200,
+  "num_filters": 128,
+  "filter_sizes": [3, 4, 5],
+  "batch_size": 128,
+  "vocab_size": 10000,
+  "num_classes": 10,
+  "max_grad_norm": 1,
+  "train_data": "../data/cnews.train.txt",
+  "valid_data": "../data/cnews.val.txt",
+  "output_path": "outputs/textcnn",
+  "word_vectors_path": "",
+  "use_word": false,
+  "ckpt_model_path": "ckpt_model/textcnn",
+  "pb_model_path": "pb_model"
+}
+
