@@ -1,4 +1,5 @@
 {
+  "model_name": "classifier",
   "focal_loss": false,
   "model_name": "textcnn",
   "epochs": 30,
@@ -16,8 +17,8 @@
   "vocab_size": 10000,
   "num_classes": 10,
   "max_grad_norm": 1,
-  "train_data": "../data/cnews.train.txt",
-  "valid_data": "../data/cnews.val.txt",
+  "train_data": "data/cnews.train.txt",
+  "valid_data": "data/cnews.val.txt",
   "output_path": "outputs/textcnn",
   "word_vectors_path": "",
   "use_word": false,
